@@ -2,7 +2,6 @@ import re
 import math
 import numpy as np
 import matplotlib.pyplot as plt
-import pandas as pd
 
 fac_dir = '/home/tim/research/cuebit_col/fac_output/'
 

@@ -2,7 +2,7 @@ import time
 from pfac.fac import *
 
 file_name = 'o8_ar'
-
+save_dir = f'/home/tim/research/cuebit_col/fac_output/{file_name}/'
 nele = 1
 
 if nele==1:
@@ -14,8 +14,6 @@ elif nele==2:
     config_labels_upper = ['n11','n12','n13','n14','n15','n16','n17','n18','n19']
 
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-save_dir = f'/home/tim/research/cuebit_col/fac_output/o8_ar/'
 
 t = time.time()
 t1 = t
